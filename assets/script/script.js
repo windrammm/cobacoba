@@ -21,20 +21,20 @@ function getJam() {
 
 $(document).ready(function () {
     if (hours >= 0 && hours < 5) {
-        $('h1').text("Selamat Bobo Amaa")
-        $('h1').attr("data-text", "Selamat Bobo Amaa")
+        $('h1').text("TIDUR TIDUR")
+        $('h1').attr("data-text", "TIDUR TIDUR")
     } else if (hours >= 5 && hours < 12) {
-        $('h1').text("Selamat Pagi Amaa")
-        $('h1').attr("data-text", "Selamat Pagi Amaa")
+        $('h1').text("Selamat Pagi Suci")
+        $('h1').attr("data-text", "Selamat Pagi Suci")
     } else if (hours >= 12 && hours < 16) {
-        $('h1').text("Selamat Siang Amaa")
-        $('h1').attr("data-text", "Selamat Siang Amaa")
+        $('h1').text("Selamat Siang Suci")
+        $('h1').attr("data-text", "Selamat Siang Suci")
     } else if (hours >= 16 && hours < 18) {
-        $('h1').text("Selamat Sore Amaa")
-        $('h1').attr("data-text", "Selamat Sore Amaa")
+        $('h1').text("Selamat Sore Suci")
+        $('h1').attr("data-text", "Selamat Sore Suci")
     } else {
-        $('h1').text("Selamat Malam Amaa")
-        $('h1').attr("data-text", "Selamat Malam Amaa")
+        $('h1').text("Selamat Malam Suci")
+        $('h1').attr("data-text", "Selamat Malam Suci")
     }
 
     let string;
